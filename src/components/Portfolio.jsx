@@ -55,7 +55,7 @@ function Portfolio() {
 						))}
 					</div>
 
-					<div className="mt-20 mb-52 md:mb-0 flex justify-center">
+					<div className="mt-20 mb-52 flex justify-center">
 						<GitHubCalendar username="christyoga123" />
 					</div>
 				</div>
