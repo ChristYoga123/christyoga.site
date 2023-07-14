@@ -1,16 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdOutlineChevronRight } from "react-icons/md";
 import Yoga from "/Yoga.png";
 import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
 function Hero() {
+	const [textColor, setTextColor] = useState("red");
 	return (
 		<>
 			<div name="home" className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800">
 				<div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
 					<div className="flex flex-col justify-center h-full text-white">
 						<h2 className="text-4xl sm:text-7xl font-bold">
-							I am a <TypeAnimation sequence={["Software Developer", 1000, "Back End Developer", 1000]} wrapper="span" speed={30} repeat={Infinity}></TypeAnimation>
+							I am a{" "}
+							<span style={{ color: textColor }}>
+								<TypeAnimation
+									sequence={[
+										"Software Developer",
+										1000,
+										() => {
+											setTextColor("red");
+										},
+										"Back End Developer",
+										1000,
+										() => {
+											setTextColor("blue");
+										},
+									]}
+									wrapper="span"
+									speed={30}
+									repeat={Infinity}
+								></TypeAnimation>
+							</span>
 						</h2>
 						<p className="text-gray-500 py-4 max-w-md">
 							I am the coding maverick, the dark knight of backend development. I bring software to life from the shadows. I craft intricate systems that dance with data, effortlessly powering the complex machinery of the digital world.
