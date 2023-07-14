@@ -9,8 +9,8 @@ function About() {
 				</div>
 
 				<p className="text-xl mt-12">
-					As a student with an insatiable passion for coding and backend development, I am a relentless explorer of the digital landscape. Armed with a voracious appetite for knowledge, I dive deep into the realm of algorithms, data
-					structures, and software architecture, hungry to unravel the secrets of efficient and powerful systems.
+					Hi, my name is Christianus Yoga Wibisono and you can call me Yoga. As a college student with an insatiable passion for coding and backend development, I am a relentless explorer of the digital landscape. Armed with a voracious
+					appetite for knowledge, I dive deep into the realm of algorithms, data structures, and software architecture, hungry to unravel the secrets of efficient and powerful systems.
 				</p>
 
 				<br />
