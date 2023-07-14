@@ -46,7 +46,7 @@ function Hero() {
 						</div>
 					</div>
 
-					<div>
+					<div className="shadow-xl shadow-blue-400 bg-gradient-to-b from-cyan-500 to-blue-800 rounded-tl-[10rem] rounded-br-[10rem] overflow-hidden md:ml-20">
 						<img src={Yoga} className="rounded-2xl mx-auto w-2/3 md:w-[650px] -mt-32 sm:mt-0" />
 					</div>
 				</div>
